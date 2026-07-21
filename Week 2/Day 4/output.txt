@@ -1,0 +1,18 @@
+First 5 Rows
+   Age  Salary  Experience  Selected
+0   56   33392           0         0
+1   46   55535          10         0
+2   32   77256          17         0
+3   25   60222           9         1
+4   38   88335           2         1
+
+Training Samples: 80
+Testing Samples : 20
+
+Accuracy: 0.35
+
+Cross Validation Scores
+[0.5  0.55 0.3  0.55 0.7 ]
+
+Average Accuracy
+0.52
