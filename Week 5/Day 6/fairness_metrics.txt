@@ -1,0 +1,8 @@
+RESPONSIBLE AI FAIRNESS ANALYSIS
+==================================================
+
+Model Accuracy: 0.8800
+
+Statistical Parity Difference: 0.0303
+Disparate Impact: 1.1379
+Equal Opportunity Difference: 0.0472
