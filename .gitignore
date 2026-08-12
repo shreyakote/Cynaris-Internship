@@ -19,3 +19,17 @@ venv311/
 __pycache__/
 *.pyc
 .vscode/
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+venv311/
+
+# ChromaDB
+chroma_db/
+pdf_chroma_db/
+
+# Environment files
+.env
