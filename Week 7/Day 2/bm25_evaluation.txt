@@ -1,0 +1,60 @@
+HAYSTACK BM25 RETRIEVAL EVALUATION
+
+Total PDF Documents: 5
+Total Questions: 10
+Top-K: 3
+
+Evaluation Criteria:
+1 = Relevant document retrieved
+0 = Relevant document not retrieved
+
+
+Q1. What is artificial intelligence?
+Result: 1
+Retrieved relevant document: Yes
+
+Q2. What is machine learning?
+Result: 1
+Retrieved relevant document: Yes
+
+Q3. What is deep learning?
+Result: 1
+Retrieved relevant document: Yes
+
+Q4. What is natural language processing?
+Result: 1
+Retrieved relevant document: Yes
+
+Q5. What is computer vision?
+Result: 1
+Retrieved relevant document: Yes
+
+Q6. What are the applications of artificial intelligence?
+Result: 1
+Retrieved relevant document: Yes
+
+Q7. What are the advantages of machine learning?
+Result: 1
+Retrieved relevant document: Yes
+
+Q8. What is data preprocessing?
+Result: 1
+Retrieved relevant document: Yes
+
+Q9. What is supervised learning?
+Result: 1
+Retrieved relevant document: Yes
+
+Q10. What is unsupervised learning?
+Result: 1
+Retrieved relevant document: Yes
+
+
+BM25 RESULT
+
+Relevant Retrievals: 10/10
+
+Precision@3 = 10/10 = 1.00
+
+BM25 retrieval was able to retrieve relevant documents
+for the majority of the test questions.
