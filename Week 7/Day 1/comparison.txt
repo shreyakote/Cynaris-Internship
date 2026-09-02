@@ -1,0 +1,40 @@
+HAYSTACK RETRIEVAL COMPARISON
+
+Number of PDF documents:
+5
+
+Number of questions:
+10
+
+Top-K:
+3
+
+
+BM25 RESULTS
+
+Relevant questions:
+9 / 10
+
+Precision:
+90%
+
+
+DENSE RETRIEVAL RESULTS
+
+Relevant questions:
+10 / 10
+
+Precision:
+100%
+
+
+COMPARISON
+
+BM25 Precision: 90%
+Dense Precision: 100%
+
+Dense retrieval performed better on the selected questions.
+
+BM25 is based mainly on keyword matching.
+Dense retrieval uses semantic embeddings and can identify documents
+that are conceptually similar even when the exact keywords are different.

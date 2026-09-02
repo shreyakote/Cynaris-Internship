@@ -1,0 +1,115 @@
+BM25 RETRIEVAL EVALUATION
+
+Question 1:
+What is machine learning?
+
+Relevant result:
+YES
+
+Retrieved document:
+document1.pdf
+
+Notes:
+The retrieved document contains a clear definition of machine learning.
+
+
+Question 2:
+What is artificial intelligence?
+
+Relevant result:
+YES
+
+Retrieved document:
+document2.pdf
+
+Notes:
+The retrieved document explains artificial intelligence.
+
+
+Question 3:
+What is RAG?
+
+Relevant result:
+YES
+
+Retrieved document:
+document3.pdf
+
+Notes:
+The retrieved document contains information about Retrieval Augmented Generation.
+
+
+Question 4:
+What is cloud computing?
+
+Relevant result:
+YES
+
+Retrieved document:
+document4.pdf
+
+Notes:
+Relevant cloud computing information was retrieved.
+
+
+Question 5:
+What is cybersecurity?
+
+Relevant result:
+YES
+
+Retrieved document:
+document5.pdf
+
+Notes:
+The retrieved document discusses cybersecurity.
+
+
+Question 6:
+What are the advantages of machine learning?
+
+Relevant result:
+YES / NO
+
+Notes:
+Check the retrieved top-3 documents.
+
+
+Question 7:
+What is the purpose of a vector database?
+
+Relevant result:
+YES / NO
+
+Notes:
+Check the retrieved top-3 documents.
+
+
+Question 8:
+What is retrieval augmented generation?
+
+Relevant result:
+YES / NO
+
+Notes:
+Check the retrieved top-3 documents.
+
+
+Question 9:
+What are common cybersecurity threats?
+
+Relevant result:
+YES / NO
+
+Notes:
+Check the retrieved top-3 documents.
+
+
+Question 10:
+What are the benefits of cloud computing?
+
+Relevant result:
+YES / NO
+
+Notes:
+Check the retrieved top-3 documents.
