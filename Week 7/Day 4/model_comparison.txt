@@ -1,0 +1,122 @@
+OLLAMA MODEL COMPARISON
+=======================
+
+Models Compared:
+1. llama3.2:3b
+2. qwen2.5:3b
+
+Both models were tested using the same questions.
+
+
+QUESTION 1
+==========
+
+What is Artificial Intelligence?
+
+
+LLAMA3.2:3B RESPONSE
+--------------------
+
+[Paste the actual response here]
+
+
+QWEN2.5:3B RESPONSE
+-------------------
+
+[Paste the actual response here]
+
+
+QUALITY OBSERVATION
+-------------------
+
+Llama3.2:
+____________________________________________
+
+Qwen2.5:
+____________________________________________
+
+
+
+QUESTION 2
+==========
+
+Explain Machine Learning in simple words.
+
+
+LLAMA3.2:3B RESPONSE
+--------------------
+
+[Paste the actual response here]
+
+
+QWEN2.5:3B RESPONSE
+-------------------
+
+[Paste the actual response here]
+
+
+QUALITY OBSERVATION
+-------------------
+
+Llama3.2:
+____________________________________________
+
+Qwen2.5:
+____________________________________________
+
+
+
+QUESTION 3
+==========
+
+What is RAG and why is it useful?
+
+
+LLAMA3.2:3B RESPONSE
+--------------------
+
+[Paste the actual response here]
+
+
+QWEN2.5:3B RESPONSE
+-------------------
+
+[Paste the actual response here]
+
+
+QUALITY OBSERVATION
+-------------------
+
+Llama3.2:
+____________________________________________
+
+Qwen2.5:
+____________________________________________
+
+
+
+OVERALL COMPARISON
+==================
+
+Criterion              Llama3.2       Qwen2.5
+------------------------------------------------
+Clarity                 ______         ______
+Accuracy                ______         ______
+Technical detail        ______         ______
+Simple explanation      ______         ______
+Response quality        ______         ______
+
+
+FINAL OBSERVATION
+=================
+
+Both local LLMs were tested using the same three questions.
+
+The responses were compared based on clarity, accuracy,
+technical detail and usefulness.
+
+The model that provided clearer and more accurate answers
+was considered better for this particular task.
+
+The comparison is based on these three questions and does
+not represent a complete benchmark of the two models.
