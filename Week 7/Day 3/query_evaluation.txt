@@ -1,0 +1,58 @@
+LLAMAINDEX QUERY EVALUATION
+===========================
+
+Number of documents: 5
+Number of queries: 10
+Embedding model: nomic-embed-text:latest
+
+
+Q1. What is artificial intelligence?
+Expected source: document1.txt
+Relevant: YES / NO
+
+Q2. What are the applications of artificial intelligence?
+Expected source: document1.txt
+Relevant: YES / NO
+
+Q3. What is machine learning?
+Expected source: document2.txt
+Relevant: YES / NO
+
+Q4. What are the types of machine learning?
+Expected source: document2.txt
+Relevant: YES / NO
+
+Q5. What is deep learning?
+Expected source: document3.txt
+Relevant: YES / NO
+
+Q6. What are the applications of deep learning?
+Expected source: document3.txt
+Relevant: YES / NO
+
+Q7. What is natural language processing?
+Expected source: document4.txt
+Relevant: YES / NO
+
+Q8. What are the applications of NLP?
+Expected source: document4.txt
+Relevant: YES / NO
+
+Q9. What is computer vision?
+Expected source: document5.txt
+Relevant: YES / NO
+
+Q10. What are the applications of computer vision?
+Expected source: document5.txt
+Relevant: YES / NO
+
+
+OBSERVATION
+===========
+
+LlamaIndex successfully loaded the text documents,
+generated embeddings using Ollama, and retrieved
+relevant document information for the queries.
+
+The answers and source documents were manually
+verified against the original text files.

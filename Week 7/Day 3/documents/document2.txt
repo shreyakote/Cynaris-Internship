@@ -1,0 +1,11 @@
+MACHINE LEARNING
+
+Machine Learning (ML) is a branch of Artificial Intelligence
+that allows computers to learn patterns from data without being
+explicitly programmed for every task.
+
+The main types of machine learning are supervised learning,
+unsupervised learning and reinforcement learning.
+
+Machine learning is used for prediction, classification,
+recommendation systems and data analysis.

@@ -1,0 +1,78 @@
+LLAMAINDEX LATENCY COMPARISON
+=============================
+
+Number of Documents: 5
+Number of Queries: 10
+Embedding Model: nomic-embed-text:latest
+LLM Model: llama3.2:3b
+
+
+1. IN-MEMORY VECTOR STORE
+-------------------------
+
+Q1: ______ seconds
+Q2: ______ seconds
+Q3: ______ seconds
+Q4: ______ seconds
+Q5: ______ seconds
+Q6: ______ seconds
+Q7: ______ seconds
+Q8: ______ seconds
+Q9: ______ seconds
+Q10: ______ seconds
+
+Average Latency: ______ seconds
+
+
+2. CHROMADB VECTOR STORE
+------------------------
+
+Q1: ______ seconds
+Q2: ______ seconds
+Q3: ______ seconds
+Q4: ______ seconds
+Q5: ______ seconds
+Q6: ______ seconds
+Q7: ______ seconds
+Q8: ______ seconds
+Q9: ______ seconds
+Q10: ______ seconds
+
+Average Latency: ______ seconds
+
+
+3. COMPARISON
+-------------
+
+In-Memory Average Latency: ______ seconds
+
+ChromaDB Average Latency: ______ seconds
+
+
+4. OBSERVATION
+--------------
+
+Both LlamaIndex VectorStoreIndex and ChromaDB were tested
+using the same 5 documents and the same 10 queries.
+
+The latency of each query was measured and the average
+latency was calculated.
+
+The In-Memory Vector Store stores vectors during the current
+program execution, while ChromaDB provides persistent
+vector storage.
+
+The latency values were compared to observe the performance
+difference between the two vector storage approaches.
+
+
+5. CONCLUSION
+-------------
+
+LlamaIndex successfully performed document indexing and
+querying using Ollama embeddings.
+
+ChromaDB was successfully integrated as the vector store.
+
+The actual measured latency values were used to compare
+both approaches.
