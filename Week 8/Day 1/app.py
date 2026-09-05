@@ -1,7 +1,16 @@
-from fastapi import FastAPI
-from pydantic import BaseModel, Field
+import logging
 import time
+
 import mlflow
+from fastapi import FastAPI
+from mlflow.exceptions import MlflowException
+from pydantic import BaseModel, Field
+
+# --------------------------------------------------
+# Logging
+# --------------------------------------------------
+
+logger = logging.getLogger(__name__)
 
 
 # --------------------------------------------------
@@ -31,7 +40,7 @@ class QueryRequest(BaseModel):
 def root():
     return {
         "message": "Production RAG ML API is running",
-        "status": "healthy"
+        "status": "healthy",
     }
 
 
@@ -42,7 +51,7 @@ def root():
 @app.get("/health")
 def health():
     return {
-        "status": "healthy"
+        "status": "healthy",
     }
 
 
@@ -63,9 +72,7 @@ def predict(request: QueryRequest):
     # Replace this section later with the actual
     # ChromaDB + LLM RAG pipeline.
 
-    answer = (
-        f"RAG system received the question: {question}"
-    )
+    answer = f"RAG system received the question: {question}"
 
     latency = time.perf_counter() - start_time
 
@@ -80,18 +87,21 @@ def predict(request: QueryRequest):
 
             mlflow.log_param(
                 "question_length",
-                len(question)
+                len(question),
             )
 
             mlflow.log_metric(
                 "latency_seconds",
-                latency
+                latency,
             )
 
-    except Exception:
+    except MlflowException as exc:
         # The API continues working if MLflow
         # tracking is temporarily unavailable.
-        pass
+        logger.warning(
+            "MLflow tracking failed: %s",
+            exc,
+        )
 
     # --------------------------------------------------
     # API response
@@ -100,5 +110,5 @@ def predict(request: QueryRequest):
     return {
         "question": question,
         "answer": answer,
-        "latency_seconds": round(latency, 4)
+        "latency_seconds": round(latency, 4),
     }

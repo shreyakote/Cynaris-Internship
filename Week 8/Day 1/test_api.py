@@ -2,7 +2,6 @@ from fastapi.testclient import TestClient
 
 from app import app
 
-
 client = TestClient(app)
 
 
@@ -42,8 +41,8 @@ def test_predict():
     response = client.post(
         "/predict",
         json={
-            "question": "What is RAG?"
-        }
+            "question": "What is RAG?",
+        },
     )
 
     assert response.status_code == 200
@@ -63,8 +62,8 @@ def test_empty_question():
     response = client.post(
         "/predict",
         json={
-            "question": ""
-        }
+            "question": "",
+        },
     )
 
     assert response.status_code == 422
