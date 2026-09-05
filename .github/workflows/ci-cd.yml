@@ -10,9 +10,16 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 jobs:
   lint-test-build:
+    name: Lint, Test and Build
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Week 8/Day 1
 
     steps:
       - name: Checkout repository
@@ -26,20 +33,20 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r "Week 8/Day 1/requirements.txt"
-          pip install pytest ruff
+          pip install -r requirements.txt
+          pip install ruff pytest
 
-      - name: Lint
+      - name: Run Ruff
         run: |
-          ruff check "Week 8/Day 1"
+          ruff check .
 
       - name: Run tests
         run: |
-          pytest -v "Week 8/Day 1/test_api.py"
+          pytest -v
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
         run: |
-          docker build -t production-rag-api:latest "Week 8/Day 1"
+          docker build -t production-rag-api:latest .
