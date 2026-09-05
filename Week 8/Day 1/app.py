@@ -28,6 +28,7 @@ app = FastAPI(
 # Request model
 # --------------------------------------------------
 
+
 class QueryRequest(BaseModel):
     question: str = Field(..., min_length=1)
 
@@ -35,6 +36,7 @@ class QueryRequest(BaseModel):
 # --------------------------------------------------
 # Root endpoint
 # --------------------------------------------------
+
 
 @app.get("/")
 def root():
@@ -48,6 +50,7 @@ def root():
 # Health check
 # --------------------------------------------------
 
+
 @app.get("/health")
 def health():
     return {
@@ -58,6 +61,7 @@ def health():
 # --------------------------------------------------
 # Prediction / RAG endpoint
 # --------------------------------------------------
+
 
 @app.post("/predict")
 def predict(request: QueryRequest):
@@ -84,7 +88,6 @@ def predict(request: QueryRequest):
         mlflow.set_experiment("Production_RAG_API")
 
         with mlflow.start_run():
-
             mlflow.log_param(
                 "question_length",
                 len(question),

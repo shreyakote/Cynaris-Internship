@@ -9,6 +9,7 @@ client = TestClient(app)
 # Test root endpoint
 # --------------------------------------------------
 
+
 def test_root():
     response = client.get("/")
 
@@ -23,6 +24,7 @@ def test_root():
 # Test health endpoint
 # --------------------------------------------------
 
+
 def test_health():
     response = client.get("/health")
 
@@ -36,6 +38,7 @@ def test_health():
 # --------------------------------------------------
 # Test prediction endpoint
 # --------------------------------------------------
+
 
 def test_predict():
     response = client.post(
@@ -57,6 +60,7 @@ def test_predict():
 # --------------------------------------------------
 # Test empty question validation
 # --------------------------------------------------
+
 
 def test_empty_question():
     response = client.post(
