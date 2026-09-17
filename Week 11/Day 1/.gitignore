@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+mlartifacts/
