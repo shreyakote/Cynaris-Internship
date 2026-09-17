@@ -1,0 +1,6 @@
+langchain==1.0.8
+langchain-ollama==1.0.1
+langchain-classic==1.0.1
+pytest==8.4.2
+ruff==0.13.0
+mlflow==3.6.0

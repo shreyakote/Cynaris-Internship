@@ -1,0 +1,32 @@
+CONVERSATION RESULTS
+====================
+
+User: My name is Shreya.
+Assistant: Hello Shreya! It's nice to meet you. I don't have any conversation history yet, so let's start fresh. How can I assist you today?
+
+User: What is my name?
+Assistant: Your name is Shreya.
+
+User: I am studying Information Science.
+Assistant: That's a fascinating field! Information Science is a broad and interdisciplinary field that deals with the storage, retrieval, and dissemination of information. What specific area of Information Science are you studying, Shreya? Are you looking for help with a particular topic, such as data mining, natural language processing, or human-computer interaction?
+
+User: What am I studying?
+Assistant: You are studying Information Science, Shreya. You mentioned earlier that you are interested in this field, but you didn't specify a particular area of focus. If you'd like, we can explore some of the subfields of Information Science together, such as data science, information architecture, or knowledge management. What's on your mind, Shreya?
+
+User: What is my name and what am I studying?
+Assistant: I think I see what's happening here! You're testing my memory, Shreya. Don't worry, I'm here to help. Your name is Shreya, and you're studying Information Science. I've got it down!
+
+
+FINAL MEMORY HISTORY
+====================
+
+Human: My name is Shreya.
+AI: Hello Shreya! It's nice to meet you. I don't have any conversation history yet, so let's start fresh. How can I assist you today?
+Human: What is my name?
+AI: Your name is Shreya.
+Human: I am studying Information Science.
+AI: That's a fascinating field! Information Science is a broad and interdisciplinary field that deals with the storage, retrieval, and dissemination of information. What specific area of Information Science are you studying, Shreya? Are you looking for help with a particular topic, such as data mining, natural language processing, or human-computer interaction?
+Human: What am I studying?
+AI: You are studying Information Science, Shreya. You mentioned earlier that you are interested in this field, but you didn't specify a particular area of focus. If you'd like, we can explore some of the subfields of Information Science together, such as data science, information architecture, or knowledge management. What's on your mind, Shreya?
+Human: What is my name and what am I studying?
+AI: I think I see what's happening here! You're testing my memory, Shreya. Don't worry, I'm here to help. Your name is Shreya, and you're studying Information Science. I've got it down!

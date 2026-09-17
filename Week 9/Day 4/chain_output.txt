@@ -1,0 +1,14 @@
+Question: What is artificial intelligence?
+Answer: Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+
+Question: What is machine learning?
+Answer: Machine learning is a type of artificial intelligence (AI) that enables computers to automatically learn and improve from data, without being explicitly programmed. It involves training algorithms on large datasets to enable them to make predictions, classify patterns, and make decisions on their own.
+
+Question: What is RAG?
+Answer: RAG stands for Recombinase Activating Gene, a type of gene that plays a crucial role in the development and function of the immune system, particularly in the process of V(D)J recombination.
+
+Question: What is an LLM?
+Answer: LLM stands for Large Language Model. It's a type of artificial intelligence designed to process and understand human language, often used in applications like language translation, text generation, and conversational AI.
+
+Question: What is LangChain?
+Answer: LangChain is an open-source, Python-based framework for building blockchain-agnostic data pipelines. It enables developers to create modular, scalable, and secure data processing workflows that can interact with various blockchain networks.
