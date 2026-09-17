@@ -1,0 +1,4 @@
+langgraph==1.0.10
+langgraph-prebuilt==1.0.8
+pytest==8.4.2
+ruff==0.13.0
