@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/DELL/OneDrive/Documents/CynariesInternship/RAG%20pipeline/Week%2011/Day%201/mlruns/792283176951892040/models/m-09d844c41aa040218a648ec20d918b8a/artifacts
+creation_timestamp: 1789661643202
+experiment_id: '792283176951892040'
+last_updated_timestamp: 1789661643400
+model_id: m-09d844c41aa040218a648ec20d918b8a
+model_type: null
+name: random_forest_model
+source_run_id: bfec756defc845eda0deaa5c712d742c
+status: 2
+status_message: null

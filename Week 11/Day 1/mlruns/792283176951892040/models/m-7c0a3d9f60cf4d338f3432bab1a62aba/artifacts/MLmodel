@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/DELL/OneDrive/Documents/CynariesInternship/RAG%20pipeline/Week%2011/Day%201/mlruns/792283176951892040/models/m-7c0a3d9f60cf4d338f3432bab1a62aba/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 3.6.0
+model_id: m-7c0a3d9f60cf4d338f3432bab1a62aba
+model_size_bytes: 153558
+model_uuid: m-7c0a3d9f60cf4d338f3432bab1a62aba
+prompts: null
+run_id: 03dfb0a96fb342c78725aaebe78fc119
+utc_time_created: '2026-09-17 16:25:46.132087'
