@@ -1,0 +1,25 @@
+Week 11 Day 4 - RAG Evaluation and Optimization
+
+Baseline Evaluation:
+- Evaluation dataset: 10 questions
+- Metrics: Faithfulness, Answer Relevancy, Context Precision, Context Recall
+- Context Recall: 1.0 for all 10 questions
+- Faithfulness and Answer Relevancy: Scores varied across questions
+- Context Precision: Mostly high, with low scores for some questions
+
+Observations:
+- Some generated answers may not be fully supported by the retrieved context.
+- Some answers may not directly address the question.
+- Context Recall was high, so retrieval coverage appears sufficient for this dataset.
+- Low scores should be reviewed alongside the original answers and retrieved contexts.
+
+Optimization Plan:
+1. Review low-scoring answers.
+2. Check whether the retrieved context supports each answer.
+3. Improve the answer-generation prompt where needed.
+4. Compare the updated results with the baseline.
+5. Keep the same 10 evaluation questions for a fair comparison.
+
+Conclusion:
+The baseline RAG evaluation was completed using Ragas.
+The results identify answer faithfulness and relevance as areas for further investigation.

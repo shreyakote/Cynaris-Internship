@@ -1,0 +1,19 @@
+Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.
+
+Machine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.
+
+Deep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.
+
+Natural Language Processing (NLP) enables computers to understand, process, and generate human language.
+
+Computer Vision enables computers to analyze and understand images and videos.
+
+Generative AI creates new content such as text, images, audio, and code based on patterns learned from data.
+
+Large Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.
+
+ChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.
+
+MLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.

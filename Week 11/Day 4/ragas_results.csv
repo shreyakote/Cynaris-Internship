@@ -1,0 +1,11 @@
+question,faithfulness,answer_relevancy,context_precision,context_recall
+What is Artificial Intelligence?,0.0,0.0,0.9999999999,1.0
+What is Machine Learning?,0.75,0.9008296113709618,0.9999999999,1.0
+What is Deep Learning?,1.0,0.9181155575918313,0.9999999999,1.0
+What does Natural Language Processing do?,0.3333333333333333,0.8707143480981537,0.9999999999,1.0
+What is Computer Vision?,0.0,0.0,0.0,1.0
+What is Generative AI?,1.0,0.8485754222368683,0.49999999995,1.0
+What are Large Language Models?,0.6666666666666666,0.9133527646564575,0.9999999999,1.0
+What is Retrieval-Augmented Generation?,0.5,0.8651217878078481,0.9999999999,1.0
+What is ChromaDB used for?,1.0,0.0,0.9999999999,1.0
+What does MLOps involve?,0.5,0.0,0.0,1.0

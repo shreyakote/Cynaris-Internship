@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "I do not know. The context only provides information about subsets and related concepts within the field of Artificial Intelligence, but it does not define what Artificial Intelligence itself is.",
+    "contexts": [
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems."
+    ],
+    "ground_truth": "Artificial Intelligence is the field of creating computer systems that perform tasks requiring human-like intelligence."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.",
+    "contexts": [
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language."
+    ],
+    "ground_truth": "Machine Learning is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+    "contexts": [
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems."
+    ],
+    "ground_truth": "Deep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns."
+  },
+  {
+    "question": "What does Natural Language Processing do?",
+    "answer": "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.",
+    "contexts": [
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns."
+    ],
+    "ground_truth": "Natural Language Processing enables computers to understand, process, and generate human language."
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "I do not know.",
+    "contexts": [
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems."
+    ],
+    "ground_truth": "Computer Vision enables computers to analyze and understand images and videos."
+  },
+  {
+    "question": "What is Generative AI?",
+    "answer": "Generative AI creates new content such as text, images, audio, and code based on patterns learned from data.",
+    "contexts": [
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems."
+    ],
+    "ground_truth": "Generative AI creates new content such as text, images, audio, and code based on patterns learned from data."
+  },
+  {
+    "question": "What are Large Language Models?",
+    "answer": "Large Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+    "contexts": [
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns."
+    ],
+    "ground_truth": "Large Language Models are neural networks trained on large text datasets to understand and generate language."
+  },
+  {
+    "question": "What is Retrieval-Augmented Generation?",
+    "answer": "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation.",
+    "contexts": [
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language."
+    ],
+    "ground_truth": "RAG combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers."
+  },
+  {
+    "question": "What is ChromaDB used for?",
+    "answer": "I don't know. The context only mentions ChromaDB as a vector database that stores embeddings and supports similarity search, but it does not explicitly state what it is used for.",
+    "contexts": [
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns."
+    ],
+    "ground_truth": "ChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information."
+  },
+  {
+    "question": "What does MLOps involve?",
+    "answer": "I do not know. The context only mentions MLOps as a field that applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems, but it does not provide specific details on what MLOps involves.",
+    "contexts": [
+      "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. It retrieves relevant documents and uses them to provide grounded answers.\n\nChromaDB is a vector database that stores embeddings and supports similarity search for retrieving relevant information.\n\nMLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems.",
+      "Artificial Intelligence (AI) is the field of creating computer systems that perform tasks requiring human-like intelligence.\n\nMachine Learning (ML) is a subset of AI that enables systems to learn patterns from data and make predictions without being explicitly programmed for every case.\n\nDeep Learning is a subset of machine learning that uses multi-layer neural networks to learn complex patterns.",
+      "Natural Language Processing (NLP) enables computers to understand, process, and generate human language.\n\nComputer Vision enables computers to analyze and understand images and videos.\n\nGenerative AI creates new content such as text, images, audio, and code based on patterns learned from data.\n\nLarge Language Models (LLMs) are neural networks trained on large text datasets to understand and generate language."
+    ],
+    "ground_truth": "MLOps applies machine learning practices to deployment, monitoring, automation, and maintenance of machine learning systems."
+  }
+]
