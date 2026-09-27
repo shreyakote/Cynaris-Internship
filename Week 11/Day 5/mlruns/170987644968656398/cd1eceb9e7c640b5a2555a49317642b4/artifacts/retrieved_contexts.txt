@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. It retrieves relevant documents and provides them as context to a language model before generating an answer.
+
+ChromaDB is a vector database used to store and search text embeddings. It can retrieve documents based on semantic similarity.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. It retrieves relevant documents and provides them as context to a language model before generating an answer.
+
+ChromaDB is a vector database used to store and search text embeddings. It can retrieve documents based on semantic similarity.
+
+Computer Vision enables computers to analyze and understand images and videos.
+
+Generative AI creates new content such as text, images, audio, or code based on patterns learned from data.
+
+Large Language Models (LLMs) are AI models trained on large amounts of text to understand and generate language.

@@ -1,0 +1,23 @@
+Artificial Intelligence (AI) is the field of building computer systems that perform tasks requiring human-like intelligence.
+
+Machine Learning (ML) is a branch of AI where systems learn patterns from data and use them to make predictions or decisions.
+
+Deep Learning uses multi-layer neural networks to learn complex patterns from large amounts of data.
+
+Natural Language Processing (NLP) enables computers to process, understand, and generate human language.
+
+Computer Vision enables computers to analyze and understand images and videos.
+
+Generative AI creates new content such as text, images, audio, or code based on patterns learned from data.
+
+Large Language Models (LLMs) are AI models trained on large amounts of text to understand and generate language.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. It retrieves relevant documents and provides them as context to a language model before generating an answer.
+
+ChromaDB is a vector database used to store and search text embeddings. It can retrieve documents based on semantic similarity.
+
+MLOps combines machine learning, software engineering, and operations practices to manage the development, deployment, monitoring, and maintenance of machine learning systems.
+
+MLflow is a platform for tracking machine learning experiments, recording parameters and metrics, and managing model artifacts.
+
+Ragas is a framework for evaluating retrieval-augmented generation systems using metrics such as faithfulness, answer relevancy, context precision, and context recall.
